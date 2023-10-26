@@ -35,7 +35,7 @@
                         <a class="inline-block text-gray-300 no-underline hover:text-white hover:text-underline py-2 px-4" href="#home" @click="isOpen = false">Home</a>
                     </li>
                     <li class="mr-3">
-                        <a class="inline-block text-gray-300 no-underline hover:text-white hover:text-underline py-2 px-4" href="#" @click="isOpen = false">About Us</a>
+                        <a class="inline-block text-gray-300 no-underline hover:text-white hover:text-underline py-2 px-4" href="#aboutus" @click="isOpen = false">About Us</a>
                     </li>
                     <li class="mr-3">
                         <a class="inline-block text-gray-300 no-underline hover:text-white hover:text-underline py-2 px-4" href="#" @click="isOpen = false">Services</a>
@@ -78,6 +78,32 @@
             </div>
         </div>
 
+
+    </section>
+
+    <!-- about us -->
+
+    <section id="aboutus">
+
+
+        <div class="text-gray-500 font-bold text-3xl text-center pt-5">
+            <h1>About Us</h1>
+        </div>
+        <div class="flex flex-col md:flex-row pt-5">
+
+
+            <div class="md:w-1/2 p-2">
+                <img src="./assets/images/image3.jpg" alt="image3" class="w-full h-full">
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/2 p-2 max-w-xl text-justify">
+                <p class="text-sm px-5 md:text-base">At the heart of our mission are two remarkable women, each with a wealth of experience and a passion for helping businesses and entrepreneurs thrive. Their combined expertise spans various fields, with a special focus on providing invaluable assistance.</p><br>
+                <h6 class="font-bold px-5">Lolita Cimerkova - The Assistant Extraordinaire</h6>
+                <p class="text-sm px-5 md:text-base">Lolita is the embodiment of efficiency and dedication. Her expertise lies in being the ultimate right-hand person for businesses and businesspeople. Having spent years honing her skills in administrative support, client relations, and task management, she brings a level of commitment and precision that's truly unrivaled. Lolita's enthusiasm for making your daily operations smoother is infectious.</p><br>
+                <h6 class="font-bold px-5">Tanja Popovska - The Multifaceted Maven</h6>
+                <p class="text-sm px-5 md:text-base">Tanja is a dynamo when it comes to versatility. With a background that includes marketing, finance, and project management, she's the perfect example of a modern Renaissance woman. Tanja's knack for seeing the big picture while managing the finer details makes her an invaluable asset. Her insight into effective strategy and problem-solving is matched only by her passion for supporting businesses in their quest for success.</p>
+            </div>
+        </div>
+    </section>
 
 
 
