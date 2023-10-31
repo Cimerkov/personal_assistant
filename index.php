@@ -38,7 +38,7 @@
                         <a class="inline-block text-gray-300 no-underline hover:text-white hover:text-underline py-2 px-4" href="#aboutus" @click="isOpen = false">About Us</a>
                     </li>
                     <li class="mr-3">
-                        <a class="inline-block text-gray-300 no-underline hover:text-white hover:text-underline py-2 px-4" href="#" @click="isOpen = false">Services</a>
+                        <a class="inline-block text-gray-300 no-underline hover:text-white hover:text-underline py-2 px-4" href="#services" @click="isOpen = false">Services</a>
                     </li>
                     <li class="mr-3">
                         <a class="inline-block text-gray-300 no-underline hover:text-white hover:text-underline py-2 px-4" href="#" @click="isOpen = false">Contact</a>
@@ -54,7 +54,7 @@
             <h1 class="text-center text-black font-bold text-5xl pt-6 pb-2" id="h1Element">Make Your Life Easier</h1>
             <h3 class="text-center text-black font-bold text-2xl" id="h3Element">With Your Personal Assistant</h3>
         </div>
-        <div class="flex flex-col md:flex-row pt-5 justify-evenly ">
+        <div class="flex flex-col md:flex-row pt-5 justify-between ">
             <div class="w-full md:w-1/2 lg:w-1/2 p-2 max-w-xl">
                 <p class="text-justify px-5 text-sm md:text-base">Searching for an experienced partner to shoulder your administrative load and supercharge your productivity? Is your business bogged down by tasks that hinder your growth and efficiency? Then you're in the right place. Welcome to Personal Assistant.
 
@@ -67,14 +67,14 @@
 
                     Reach out today and schedule a complimentary discovery session. We'll delve into your current operational structure and support needs. Discover how this service can help drive you towards your business objectives.</p>
                 <br>
-                <p class="text-justify px-5 text-sm md:text-base">Reach out today and schedule a complimentary discovery session. We’ll delve into your current operational structure and support needs. Discover how this service can help drive you towards your business objectives.</p>
+                <p class="text-justify px-5 text-sm md:text-base">Reach out today and schedule a complimentary discovery session. We'll delve into your current operational structure and support needs. Discover how this service can help drive you towards your business objectives.</p>
                 <br>
                 <p class="font-bold text-2xl text-center px-5 text-sm md:text-base">Make Your Life Easier With Your Personal Assistant</p>
 
 
             </div>
             <div class="md:w-1/2 p-2">
-                <img src="./assets/images/image2.png" alt="image2" class="w-full h-full">
+                <img src="./assets/images/image2.png" alt="image2" class="w-full h-full rounded">
             </div>
         </div>
 
@@ -89,11 +89,11 @@
         <div class="text-gray-500 font-bold text-3xl text-center pt-5">
             <h1>About Us</h1>
         </div>
-        <div class="flex flex-col md:flex-row pt-5">
+        <div class="flex flex-col justify-between md:flex-row pt-5">
 
 
             <div class="md:w-1/2 p-2">
-                <img src="./assets/images/image3.jpg" alt="image3" class="w-full h-full">
+                <img src="./assets/images/image3.jpg" alt="image3" class="w-full h-full rounded">
             </div>
             <div class="w-full md:w-1/2 lg:w-1/2 p-2 max-w-xl text-justify">
                 <p class="text-sm px-5 md:text-base">At the heart of our mission are two remarkable women, each with a wealth of experience and a passion for helping businesses and entrepreneurs thrive. Their combined expertise spans various fields, with a special focus on providing invaluable assistance.</p><br>
@@ -104,6 +104,74 @@
             </div>
         </div>
     </section>
+
+
+    <!-- Services -->
+
+    <section id="services">
+        <div class="text-gray-500 font-bold text-3xl text-center p-5">
+            <h1>Services</h1>
+        </div>
+        <div class="flex flex-wrap mx3-px3 text-center">
+            <div class="w-full sm:w-1/2 p-2 md:w-1/3 p-2 lg:w-1/3 p-2">
+                <div class="card-zoom rounded overflow-hidden shadow-lg">
+                    <img class="w-full h-64 object-cover" src="./assets/images/social.jpg" alt="Social Media Management">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Social Media</h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="w-full sm:w-1/2 p-2 md:w-1/3 p-2 lg:w-1/3 p-2">
+                <div class="card-zoom rounded overflow-hidden shadow-lg">
+                    <img class="w-full h-64 object-cover" src="./assets/images/customer.jpg" alt="Customer Service">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Customer Service</h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="w-full sm:w-1/2 p-2 md:w-1/3 p-2 lg:w-1/3 p-2">
+                <div class="card-zoom rounded overflow-hidden shadow-lg">
+                    <img class="w-full h-64 object-cover" src="./assets/images/research.jpeg" alt="Research">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Research</h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="w-full sm:w-1/2 p-2 md:w-1/3 p-2 lg:w-1/3 p-2">
+                <div class="card-zoom rounded overflow-hidden shadow-lg ">
+                    <img class="w-full h-64 object-cover" src="./assets/images/data.jpg" alt="Data Entry">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Data Entry</h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="w-full sm:w-1/2 p-2 md:w-1/3 p-2 lg:w-1/3 p-2">
+                <div class="card-zoom rounded overflow-hidden shadow-lg">
+                    <img class="w-full h-64 object-cover" src="./assets/images/email.jpeg" alt="Email Management">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Email Management</h3>
+
+                    </div>
+                </div>
+            </div>
+            <div class="w-full sm:w-1/2 p-2 md:w-1/3 p-2 lg:w-1/3 p-2">
+                <div class="card-zoom rounded overflow-hidden shadow-lg">
+                    <img class="w-full h-64 object-cover" src="./assets/images/copywriting.jpeg" alt="Copywriting">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">Copywriting</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
 
 
 

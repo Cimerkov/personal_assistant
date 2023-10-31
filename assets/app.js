@@ -14,3 +14,15 @@
  // Call the animation function with a delay
  addFadeInAnimation(h1Element, 0);
  addFadeInAnimation(h3Element, 800); // 800ms delay
+
+ // card zoom animation
+ const cardElements = document.querySelectorAll('.card-zoom');
+ cardElements.forEach(card => {
+     card.addEventListener('mouseenter', () => {
+         card.style.transform = 'scale(1.05)';
+     });
+
+     card.addEventListener('mouseleave', () => {
+         card.style.transform = 'scale(1)';
+     });
+ });
